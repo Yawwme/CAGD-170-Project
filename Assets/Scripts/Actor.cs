@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Actor : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public string Name;
+    public Dialogue Dialogue;
+
+    private void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SpeakTo();
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    // Trigger dialogue for this actor
+    public void SpeakTo()
     {
-        
+        DialogueManager.Instance.StartDialogue(Name, Dialogue.rootNode);
     }
 }
