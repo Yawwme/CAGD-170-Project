@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
+  m_Name: Node1
+  m_EditorClassIdentifier: 
+  speakerName: You
+  dialogueText: This is showing off how dialogue works! Press Q to continue.
+  defaultNextNode: {fileID: 11400000, guid: 2e7433c58d841254b96926b777fc03d8, type: 2}
+  responses: []
