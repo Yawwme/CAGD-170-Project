@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Dialogue", menuName = "Dialogue/Dialogue Asset")]
+//Make the Conversation node first then dialogue nodes
+[CreateAssetMenu(menuName = "Dialogue/Conversation")]
+
 public class Dialogue : ScriptableObject
 {
-    //First node of the conversation
     public DialogueNode rootNode;
 }
