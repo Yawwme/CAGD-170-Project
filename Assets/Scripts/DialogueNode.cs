@@ -12,9 +12,11 @@ public class DialogueNode : ScriptableObject
     */
 
 
-    [Header("What to show on screen. This is THE dialogue")]
+   
     [Header("speakerName is the Character's Name")]
     public string speakerName;
+
+    [Header("What to show on screen. This is THE dialogue")]
     [TextArea(3, 8)] public string dialogueText;
 
     

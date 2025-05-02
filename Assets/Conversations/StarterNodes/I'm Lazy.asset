@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: GetStabbed
+  m_Name: I'm Lazy
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: Why would you do that?
+  speakerName: You
+  dialogueText: I'm going to bedrot
   defaultNextNode: {fileID: 0}
   responses: []

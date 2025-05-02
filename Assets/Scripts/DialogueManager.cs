@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -69,7 +70,7 @@ public class DialogueManager : MonoBehaviour
         {
             skipTypewriter = true;
         }
-            
+        
     }
 
 
@@ -156,23 +157,28 @@ public class DialogueManager : MonoBehaviour
 
         // only two possible responses—ignore extras
         if (node.responses.Count > 0)
-            CreateResponseButton(node.responses[0], response1Parent);
+            CreateResponseButton(node.responses[0], response1Parent, 10);
 
         if (node.responses.Count > 1)
-            CreateResponseButton(node.responses[1], response2Parent);
+            CreateResponseButton(node.responses[1], response2Parent, 10);
     }
 
-    private void CreateResponseButton(DialogueResponse response, Transform parent)
+    
+
+    private void CreateResponseButton(DialogueResponse response, Transform parent, int fontSize)
     {
         var buttonPrefab = Instantiate(this.buttonPrefab, parent);
         var text = buttonPrefab.GetComponentInChildren<TextMeshProUGUI>();
         var button = buttonPrefab.GetComponent<Button>();
 
+        //fontSize changes the Text.fontSize. Don't change the number to anything high. It'll scale off the screen.
+        //I wish there was some sort of way to check Auto Size through text.
+        text.fontSize = fontSize;
         text.text = response.responseText;
         button.onClick.AddListener(() =>
         {
             // invoke designer-assigned effects
-            response.onSelected?.Invoke();
+            response.onSelected.Invoke();
 
             // back to text mode
             //DON'T SET THIS TO TRUE. KEEP IT FALSE
