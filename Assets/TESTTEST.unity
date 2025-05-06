@@ -1046,8 +1046,8 @@ MonoBehaviour:
   buttonPrefab: {fileID: 6133801235201358436, guid: a789fd87b7cdcc74392b295ce114c4bd, type: 3}
   response1Parent: {fileID: 625010816}
   response2Parent: {fileID: 792120773}
-  autoStartConversationNode: {fileID: 11400000, guid: 480b859245033e64498044de117cf9fd, type: 2}
-  autoStart: 1
+  autoStartConversation: {fileID: 11400000, guid: 480b859245033e64498044de117cf9fd, type: 2}
+  skipInitialInput: 1
   wordSpeed: 0.05
 --- !u!1 &1225779122
 GameObject:

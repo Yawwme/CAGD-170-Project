@@ -36,6 +36,11 @@ public class DialogueManager : MonoBehaviour
     public Transform response1Parent;           // Appears on the top
     public Transform response2Parent;           // Appears on the bottom
 
+    [Header("Put Conversation Node here and check autoStart")]
+    [Header("Please don't make it false!")]
+    public Dialogue autoStartConversationNode;
+    public bool autoStart = true;
+
 
     private bool skipTypewriter; //Only useful when the player wants to skip the typewriter effect
 
@@ -73,7 +78,14 @@ public class DialogueManager : MonoBehaviour
         
     }
 
+    private void Start()
+    {
+        if (autoStartConversationNode != null)
+        {
+            StartDialogue(autoStartConversationNode);
+        }
 
+    }
     public void StartDialogue(Dialogue convo)
     {
         StartDialogueNode(convo.rootNode);
@@ -187,8 +199,16 @@ public class DialogueManager : MonoBehaviour
             //Keep this true though. We want text!
             textContainer.SetActive(true);
 
-            //Plays the next node if present
-            StartDialogueNode(response.nextNode);
+            //scene transitoon
+            if (!string.IsNullOrEmpty(response.loadScene))
+            {
+                SceneManager.LoadScene(response.loadScene);
+            }
+            else if (response.nextNode != null)
+            {
+                StartDialogueNode(response.nextNode);
+            }
+
         });
     }
 

@@ -5,8 +5,11 @@ using UnityEngine;
 
 public class Actor : MonoBehaviour
 {
-    //Between you and whoever is reading this comment, I HATE this script.
-    //I know it's unprofessional, but the player isn't getting the source code. This script is the TF2 coconut.jpg meme except real
+    //Attach this script to an empty GameObject
+    //Honestly, this script is pretty useless, but I'm afraid of things breaking if it gets removed as I built
+    //the dialogue system around youtube videos. This script is the TF2 coconut.jpg meme except real
+
+    [Header("Put the Conversation Node here!")]
     public Dialogue Dialogue;
 
     private void Update()

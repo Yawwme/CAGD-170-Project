@@ -13,14 +13,15 @@ MonoBehaviour:
   m_Name: GetStabbed
   m_EditorClassIdentifier: 
   speakerName: Narrator
-  dialogueText: Why would you do that?
+  dialogueText: good joob
   defaultNextNode: {fileID: 0}
   responses:
   - responseText: rad change
-    nextNode: {fileID: 11400000, guid: cb3ab932ed45f9d46a3372ced83dcbc9, type: 2}
+    nextNode: {fileID: 0}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
+    loadScene: Test
     onClick:
       m_PersistentCalls:
         m_Calls: []

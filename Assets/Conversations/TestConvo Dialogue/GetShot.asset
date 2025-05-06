@@ -13,6 +13,15 @@ MonoBehaviour:
   m_Name: GetShot
   m_EditorClassIdentifier: 
   speakerName: You
-  dialogueText: For your information, you won't get shot in the real game
+  dialogueText: hi guys!!!!!
   defaultNextNode: {fileID: 0}
-  responses: []
+  responses:
+  - responseText: radical change dude!
+    nextNode: {fileID: 0}
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    loadScene: Test
+    onClick:
+      m_PersistentCalls:
+        m_Calls: []

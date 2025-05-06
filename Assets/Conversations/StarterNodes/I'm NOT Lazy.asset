@@ -12,7 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: I'm NOT Lazy
   m_EditorClassIdentifier: 
-  speakerName: 
-  dialogueText: 
+  speakerName: You
+  dialogueText: fine nerd
   defaultNextNode: {fileID: 0}
-  responses: []
+  responses:
+  - responseText: actually be productive
+    nextNode: {fileID: 0}
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    loadScene: Test2
+    onClick:
+      m_PersistentCalls:
+        m_Calls: []

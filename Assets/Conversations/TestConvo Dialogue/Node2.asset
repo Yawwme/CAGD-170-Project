@@ -13,16 +13,24 @@ MonoBehaviour:
   m_Name: Node2
   m_EditorClassIdentifier: 
   speakerName: Narrator
-  dialogueText: Look I'm the voices in your head!
+  dialogueText: hell yeah time to make the game
   defaultNextNode: {fileID: 0}
   responses:
-  - responseText: Get Stabbed
+  - responseText: press this!
     nextNode: {fileID: 11400000, guid: 9754b4df3a5ccbb4599f5614a8bc0ab3, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
-  - responseText: Get Shot
+    loadScene: 
+    onClick:
+      m_PersistentCalls:
+        m_Calls: []
+  - responseText: no press this!
     nextNode: {fileID: 11400000, guid: df63710e13ab82f43b701ff30d0da0df, type: 2}
     onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    loadScene: 
+    onClick:
       m_PersistentCalls:
         m_Calls: []

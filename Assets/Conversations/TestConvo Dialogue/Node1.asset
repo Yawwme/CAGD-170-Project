@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Node1
   m_EditorClassIdentifier: 
   speakerName: You
-  dialogueText: This is showing off how dialogue works! Press Q to continue.
+  dialogueText: You should only be here from the first Test scene. If this works
+    then that means scene transitons are GOOD!
   defaultNextNode: {fileID: 11400000, guid: 2e7433c58d841254b96926b777fc03d8, type: 2}
   responses: []
