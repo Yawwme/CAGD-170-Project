@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
+  m_Name: SleepIn 1
+  m_EditorClassIdentifier: 
+  speakerName: 
+  dialogueText: After all, you're not even sure if your parents exist. If they did,
+    they would've woken you up.
+  defaultNextNode: {fileID: 11400000, guid: 1bb72e649a1769a4c872c7d10f741855, type: 2}
+  responses: []

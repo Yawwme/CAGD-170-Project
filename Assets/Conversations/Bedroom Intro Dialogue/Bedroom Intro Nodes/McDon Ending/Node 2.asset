@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
+  m_Name: Node 2
+  m_EditorClassIdentifier: 
+  speakerName: You
+  dialogueText: I DON'T NEED YOU IN MY HEAD! I'VE BEEN LIVING MY LIFE PERFECTLY FINE
+    WITHOUT AN ANNOYING VOICE POSING AS A PASSIVE AGRESSIVE JIMINY CRICKET!
+  defaultNextNode: {fileID: 11400000, guid: bf4e6aa41fede254e92cee83219ca6d5, type: 2}
+  responses: []
