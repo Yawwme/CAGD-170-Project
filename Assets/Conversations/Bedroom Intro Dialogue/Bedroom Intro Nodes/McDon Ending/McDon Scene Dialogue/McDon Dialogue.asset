@@ -10,18 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: SleepIn 9
+  m_Name: McDon Dialogue
   m_EditorClassIdentifier: 
-  speakerName: 
-  dialogueText: Somewhere terrible.
+  speakerName: You
+  dialogueText: I hate myself
   defaultNextNode: {fileID: 0}
-  responses:
-  - responseText: Somewhere truly terrible
-    nextNode: {fileID: 0}
-    onSelected:
-      m_PersistentCalls:
-        m_Calls: []
-    loadScene: McDon
-    onClick:
-      m_PersistentCalls:
-        m_Calls: []
+  responses: []
