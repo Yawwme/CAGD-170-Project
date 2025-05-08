@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: Node 1
   m_EditorClassIdentifier: 
-  speakerName: You
-  dialogueText: Oh god, I live in San Francisco.
-  defaultNextNode: {fileID: 11400000, guid: 3afcfb081d53c0e438769580547e6363, type: 2}
+  speakerName: Narrator
+  dialogueText: See! You're starting to trust me!
+  defaultNextNode: {fileID: 11400000, guid: 98c1b20ca3ff80a4a90d856c4f5385d0, type: 2}
   responses: []

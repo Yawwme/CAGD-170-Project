@@ -10,25 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: McDon Dialogue 13
+  m_Name: Node 19
   m_EditorClassIdentifier: 
-  speakerName: 
-  dialogueText: The customer gives you one last snarky grin before leaving. You're
-    left standing there, wondering if there was something you could've done to avoid
-    this tragic fate.
+  speakerName: You
+  dialogueText: Hmm...
   defaultNextNode: {fileID: 0}
   responses:
-  - responseText: Retry
+  - responseText: I rather not die today
     nextNode: {fileID: 0}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
-    loadScene: Bedroom(Intro)
+    loadScene: 
     onClick:
       m_PersistentCalls:
         m_Calls: []
-  - responseText: Return to Main Menu
-    nextNode: {fileID: 0}
+  - responseText: What's the worst that can happen
+    nextNode: {fileID: 11400000, guid: 0280d9854a114764f8ca1a15d8d38c6a, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []

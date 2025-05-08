@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: Node 1
+  m_Name: Node 9
   m_EditorClassIdentifier: 
   speakerName: You
-  dialogueText: Oh god, I live in San Francisco.
-  defaultNextNode: {fileID: 11400000, guid: 3afcfb081d53c0e438769580547e6363, type: 2}
+  dialogueText: ...
+  defaultNextNode: {fileID: 11400000, guid: a32fc2854cc5a00429a416f4f226868b, type: 2}
   responses: []

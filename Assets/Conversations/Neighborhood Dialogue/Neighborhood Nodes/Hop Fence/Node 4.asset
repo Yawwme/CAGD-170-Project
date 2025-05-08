@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: Node 1
+  m_Name: Node 4
   m_EditorClassIdentifier: 
   speakerName: You
-  dialogueText: Oh god, I live in San Francisco.
-  defaultNextNode: {fileID: 11400000, guid: 3afcfb081d53c0e438769580547e6363, type: 2}
+  dialogueText: I never hopped a fence before. What do you want me to do?
+  defaultNextNode: {fileID: 11400000, guid: c6f9cd4a62365d148b1d4e7c588806d9, type: 2}
   responses: []

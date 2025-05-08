@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Node
   m_EditorClassIdentifier: 
   speakerName: 
-  dialogueText: You left your house, and remembered where you live.
+  dialogueText: You left your house, and remembered where you lived.
   defaultNextNode: {fileID: 11400000, guid: daf063f1ae384bd44aad94f8db96759e, type: 2}
   responses: []
