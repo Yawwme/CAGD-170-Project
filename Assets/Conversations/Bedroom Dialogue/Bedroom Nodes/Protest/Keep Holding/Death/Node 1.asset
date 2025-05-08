@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: McDon Dialogue
+  m_Name: Node 1
   m_EditorClassIdentifier: 
-  speakerName: You
-  dialogueText: I hate myself.
-  defaultNextNode: {fileID: 11400000, guid: c1d91638562574949818f2afe14f7786, type: 2}
+  speakerName: 
+  dialogueText: When I mean "passed out", I meant you DIED!
+  defaultNextNode: {fileID: 11400000, guid: eb725e3eac2a65441a3e81b49699ceed, type: 2}
   responses: []

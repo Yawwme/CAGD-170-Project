@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: McDon Dialogue
+  m_Name: McDon Dialogue 2
   m_EditorClassIdentifier: 
   speakerName: You
-  dialogueText: I hate myself.
-  defaultNextNode: {fileID: 11400000, guid: c1d91638562574949818f2afe14f7786, type: 2}
+  dialogueText: One moment I was getting ready for school, the next I just... ended
+    up working for federal minimum wage.
+  defaultNextNode: {fileID: 11400000, guid: 4d6924365a0e86e47ad7c9d5abf6d474, type: 2}
   responses: []

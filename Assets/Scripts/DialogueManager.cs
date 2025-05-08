@@ -119,9 +119,12 @@ public class DialogueManager : MonoBehaviour
             //and break
             if (skipTypewriter == true)
             {
+                yield return new WaitForSeconds(0.09f); //Small delay to prevent players from spamming Q
                 dialogueBodyText.text = node.dialogueText; //whatever the node dialogue is, so is the dialogueBody
                 break;
             }
+
+            //play a sound here or something idk
             dialogueBodyText.text += c;
             yield return new WaitForSeconds(wordSpeed); //All it does is add a delay to each character. You can set the wordSpeed to whatever
         }

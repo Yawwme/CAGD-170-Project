@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: McDon Dialogue
+  m_Name: Node 3
   m_EditorClassIdentifier: 
-  speakerName: You
-  dialogueText: I hate myself.
-  defaultNextNode: {fileID: 11400000, guid: c1d91638562574949818f2afe14f7786, type: 2}
+  speakerName: Narrator
+  dialogueText: You are SO lucky that I can't curse at you right now.
+  defaultNextNode: {fileID: 11400000, guid: 176ed60e4b32ce542a6057fa91ef912f, type: 2}
   responses: []

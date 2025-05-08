@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: McDon Dialogue
+  m_Script: {fileID: 11500000, guid: e1ddb80ddd4959f43aa1e1291a3358ce, type: 3}
+  m_Name: Death
   m_EditorClassIdentifier: 
-  speakerName: You
-  dialogueText: I hate myself.
-  defaultNextNode: {fileID: 11400000, guid: c1d91638562574949818f2afe14f7786, type: 2}
-  responses: []
+  rootNode: {fileID: 11400000, guid: 64012d2496a70c64f94915445a09ddce, type: 2}

@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: Node 9
+  m_Name: Node 27
   m_EditorClassIdentifier: 
   speakerName: You
-  dialogueText: Hmm...
+  dialogueText: Oh my...
   defaultNextNode: {fileID: 0}
   responses:
-  - responseText: I love my education!
-    nextNode: {fileID: 11400000, guid: bf6d0f29a6d8e5e4d8a3c16925c2d99b, type: 2}
+  - responseText: Protest this unfair slander
+    nextNode: {fileID: 11400000, guid: 1a8a72603cf9b564092750c5c8317cfa, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
@@ -25,8 +25,8 @@ MonoBehaviour:
     onClick:
       m_PersistentCalls:
         m_Calls: []
-  - responseText: I'm sleepy, and you're annoying
-    nextNode: {fileID: 11400000, guid: 66d264c0d1bb3434d82cf9dbb89edae2, type: 2}
+  - responseText: Quickly leave the house
+    nextNode: {fileID: 11400000, guid: df1c6903eda218d4294d7c822b6df209, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
