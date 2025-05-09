@@ -13,15 +13,6 @@ MonoBehaviour:
   m_Name: Node 5
   m_EditorClassIdentifier: 
   speakerName: Narrator
-  dialogueText: I don't know, try?
-  defaultNextNode: {fileID: 0}
-  responses:
-  - responseText: Hop that shady fence!
-    nextNode: {fileID: 0}
-    onSelected:
-      m_PersistentCalls:
-        m_Calls: []
-    loadScene: Alleyway
-    onClick:
-      m_PersistentCalls:
-        m_Calls: []
+  dialogueText: You won't, I did the mental math, and you'll be fine.
+  defaultNextNode: {fileID: 11400000, guid: 845bf0c3381d1c0478fc3cc95ba5c546, type: 2}
+  responses: []

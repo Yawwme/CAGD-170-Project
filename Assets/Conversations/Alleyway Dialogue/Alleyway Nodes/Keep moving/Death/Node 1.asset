@@ -10,18 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: Node 5
+  m_Name: Node 1
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: I don't know, try?
-  defaultNextNode: {fileID: 0}
-  responses:
-  - responseText: Hop that shady fence!
-    nextNode: {fileID: 0}
-    onSelected:
-      m_PersistentCalls:
-        m_Calls: []
-    loadScene: Alleyway
-    onClick:
-      m_PersistentCalls:
-        m_Calls: []
+  speakerName: 
+  dialogueText: The moment you started digging in the trash can, you felt something
+    sharp plung into your back. Pain radiated outward as your body screams in agony.
+  defaultNextNode: {fileID: 11400000, guid: 8140164110dc5d4408be7e07965cda8c, type: 2}
+  responses: []

@@ -29,4 +29,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bedroom(Intro).unity
     guid: ef50ed2aa4bbfb94785a4c0e399348f6
+  - enabled: 1
+    path: Assets/Scenes/Alleyway.unity
+    guid: 596548305073164439bf17acfd0b7186
+  - enabled: 1
+    path: Assets/Scenes/AlleyDeath.unity
+    guid: 987ce37b748cc974d9b26974f50d0a2d
+  - enabled: 1
+    path: Assets/Scenes/SchoolFront.unity
+    guid: 8069c36c8b8571b4f8d0dddee284efa9
   m_configObjects: {}

@@ -10,18 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: Node 5
+  m_Name: Node 1
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: I don't know, try?
-  defaultNextNode: {fileID: 0}
-  responses:
-  - responseText: Hop that shady fence!
-    nextNode: {fileID: 0}
-    onSelected:
-      m_PersistentCalls:
-        m_Calls: []
-    loadScene: Alleyway
-    onClick:
-      m_PersistentCalls:
-        m_Calls: []
+  speakerName: 
+  dialogueText: That voice in your head hasn't led you astray yet. It's been pretty
+    useful in keeping you alive.
+  defaultNextNode: {fileID: 11400000, guid: 273ee305a8f7120429cf7147d4bce643, type: 2}
+  responses: []
