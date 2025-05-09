@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using JetBrains.Annotations;
+using System.Runtime.CompilerServices;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -41,6 +43,8 @@ public class DialogueManager : MonoBehaviour
     public Dialogue autoStartConversationNode;
     public bool autoStart = true;
 
+    [Header("Testing")]
+    public AudioSource sound;
 
     private bool skipTypewriter; //Only useful when the player wants to skip the typewriter effect
 
@@ -192,7 +196,6 @@ public class DialogueManager : MonoBehaviour
         text.text = response.responseText;
         button.onClick.AddListener(() =>
         {
-            // invoke designer-assigned effects
             response.onSelected.Invoke();
 
             // back to text mode
@@ -210,6 +213,12 @@ public class DialogueManager : MonoBehaviour
             else if (response.nextNode != null)
             {
                 StartDialogueNode(response.nextNode);
+            }
+
+            if (sound != null)
+            {
+                print("work");
+                sound.Play();
             }
 
         });

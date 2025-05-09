@@ -21,7 +21,7 @@ MonoBehaviour:
     onSelected:
       m_PersistentCalls:
         m_Calls: []
-    loadScene: 
+    loadScene: Alleyway
     onClick:
       m_PersistentCalls:
         m_Calls: []

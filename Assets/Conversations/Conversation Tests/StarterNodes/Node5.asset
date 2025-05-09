@@ -20,15 +20,43 @@ MonoBehaviour:
     nextNode: {fileID: 11400000, guid: 90074ffbcaff23945bfc94445f5e98f0, type: 2}
     onSelected:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    loadScene: 
     onClick:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 0
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+    audioSource: {fileID: 0}
   - responseText: Fine
     nextNode: {fileID: 11400000, guid: 2c693e95ddf577a41ab8eae25659bc43, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
+    loadScene: 
     onClick:
       m_PersistentCalls:
         m_Calls: []
+    audioSource: {fileID: 0}

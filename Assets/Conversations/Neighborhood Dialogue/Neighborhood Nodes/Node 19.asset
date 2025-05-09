@@ -17,7 +17,7 @@ MonoBehaviour:
   defaultNextNode: {fileID: 0}
   responses:
   - responseText: I rather not die today
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: c0b058312d9ed1642b6271c5ae29ff32, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
