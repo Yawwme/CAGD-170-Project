@@ -25,3 +25,4 @@ MonoBehaviour:
     onClick:
       m_PersistentCalls:
         m_Calls: []
+    audioSource: {fileID: 0}

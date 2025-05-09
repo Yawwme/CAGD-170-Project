@@ -16,5 +16,6 @@ public class DialogueResponse
     
 
     public UnityEvent onClick; //Might get removed if it does nothing. 
+    public AudioSource audioSource;
 
 }
