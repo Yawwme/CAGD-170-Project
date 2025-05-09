@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Classroom/Classroom Death.unity
     guid: ede5708cc5eeac74c953ad720c03637e
+  - enabled: 1
+    path: Assets/Scenes/School Hallway/Hallway.unity
+    guid: 1baddcbf9ed827e49913647799b11f26
   m_configObjects: {}
