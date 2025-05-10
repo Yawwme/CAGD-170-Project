@@ -22,7 +22,9 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     loadScene: Test2
+    sprite: {fileID: 21300000, guid: d8d7fa8c41292844385b0994eb3ea140, type: 3}
     onClick:
       m_PersistentCalls:
         m_Calls: []
-    audioSource: {fileID: 0}
+  cubeChanSprite: {fileID: 21300000, guid: f196cbb4772ec704b8e22508764ffc84, type: 3}
+  showCubeChan: 1

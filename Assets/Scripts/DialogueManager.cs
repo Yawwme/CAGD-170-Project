@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 using JetBrains.Annotations;
 using System.Runtime.CompilerServices;
+using UnityEditor.Experimental.GraphView;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -43,8 +44,15 @@ public class DialogueManager : MonoBehaviour
     public Dialogue autoStartConversationNode;
     public bool autoStart = true;
 
-    [Header("Testing")]
+    [Header("Add an audio source here if you want a button to play sound when pressed")]
+    [Header("Don't play something too long please")]
     public AudioSource sound;
+
+    [Header("cubeChanImageContainer = ImageContainer")]
+    [Header("cubeChanSprite = Image")]
+    public Image cubeChanImageContainer;
+    public Image cubeChanSprite;
+
 
     private bool skipTypewriter; //Only useful when the player wants to skip the typewriter effect
 
@@ -102,6 +110,16 @@ public class DialogueManager : MonoBehaviour
         //Not changing it, deal with it
         dialogueUI.SetActive(true);
         speakerNameText.text = node.speakerName;
+
+        if (node.showCubeChan && node.cubeChanSprite != null)
+        {
+            cubeChanSprite.sprite = node.cubeChanSprite;
+            cubeChanSprite.gameObject.SetActive(true);
+        }
+        else
+        {
+            cubeChanSprite.gameObject.SetActive(false);
+        }
 
 
         StopAllCoroutines();
@@ -205,6 +223,17 @@ public class DialogueManager : MonoBehaviour
             //Keep this true though. We want text!
             textContainer.SetActive(true);
 
+            //If the response sprite IS NOT null and cubeChanImageContainer's image IS NOT null
+            //then cubeChanImageContainer is assigned to the response sprite
+
+            //This should work.
+            if (response.sprite != null && cubeChanImageContainer != null)
+            {
+               
+                cubeChanImageContainer.sprite = response.sprite;
+
+            }
+
             //scene transitoon
             if (!string.IsNullOrEmpty(response.loadScene))
             {
@@ -214,7 +243,8 @@ public class DialogueManager : MonoBehaviour
             {
                 StartDialogueNode(response.nextNode);
             }
-
+             
+            //If the sound IS NOT null, then it'll play
             if (sound != null)
             {
                 print("work");

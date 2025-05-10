@@ -17,3 +17,5 @@ MonoBehaviour:
     society.
   defaultNextNode: {fileID: 11400000, guid: 8a2e9fc2e6b0bb543ab4348f950bd661, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 21300000, guid: a5ba3d3b857294740a17aee28d38f4bf, type: 3}
+  showCubeChan: 1

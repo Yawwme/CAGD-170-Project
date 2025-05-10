@@ -32,9 +32,11 @@ public class DialogueNode : ScriptableObject
     public List<DialogueResponse> responses = new List<DialogueResponse>();
 
     public bool isBranching => responses != null && responses.Count > 0;
-   
-    // public bool IsAutoAdvance => !isBranching && defaultNextNode != null;
 
+    public Sprite cubeChanSprite;
+    public bool showCubeChan;
+   
+    //Old code, go look and gawk.
     internal bool IsLastNode()
     {
         return responses.Count <= 0;
