@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Node 5
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: That Is correct, I also would have taken to live stream on KICK and
-    be a self entitled jerk for views
+  dialogueText: That Is... correct! I also would have taken to streaming on KICK
+    and be a self entitled jerk for views and fame.
   defaultNextNode: {fileID: 11400000, guid: da3d4ad237730ad4daf26d0ef130010b, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

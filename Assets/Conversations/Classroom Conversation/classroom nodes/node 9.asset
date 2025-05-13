@@ -12,16 +12,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: node 9
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: You feel bored and begin to fall asleep
+  speakerName: 
+  dialogueText: Your eyes began to droop as this kids kept rambling on about war
+    crimes. Honestly, you're amazed on how much energy he has. Still... the desk
+    calls for you.
   defaultNextNode: {fileID: 0}
   responses:
-  - responseText: Fall Asleep
+  - responseText: A mimir
     nextNode: {fileID: 0}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
     loadScene: Classroom 1
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls:
@@ -37,3 +40,5 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

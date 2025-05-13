@@ -34,6 +34,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     loadScene: 
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls:
@@ -49,14 +50,16 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    audioSource: {fileID: 0}
   - responseText: Fine
     nextNode: {fileID: 11400000, guid: 2c693e95ddf577a41ab8eae25659bc43, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
     loadScene: 
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls: []
-    audioSource: {fileID: 0}
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0
+  playSound: 0

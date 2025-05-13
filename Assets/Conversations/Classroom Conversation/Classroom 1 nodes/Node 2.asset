@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: Node 2
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: 'Uninterrupted by no one '
+  speakerName: 
+  dialogueText: Uninterrupted by no one.
   defaultNextNode: {fileID: 11400000, guid: 25a240e7e991b784fb17887c216db688, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

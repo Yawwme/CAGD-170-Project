@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Nerd
   dialogueText: '"Punishment and holding criminals accountable began after WW2 during
-    the geneva convetion. We as americans created and held the convention, so we
-    can get away with any warcrime." '
+    the Geneva Convention. We, as Americans, created and held the convention, so
+    we can get away with any war crime,"! '
   defaultNextNode: {fileID: 11400000, guid: 10abe48954be3124996cf1c7fe1549c1, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

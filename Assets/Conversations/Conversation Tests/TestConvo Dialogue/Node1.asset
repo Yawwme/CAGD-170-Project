@@ -17,3 +17,6 @@ MonoBehaviour:
     then that means scene transitons are GOOD!
   defaultNextNode: {fileID: 11400000, guid: 2e7433c58d841254b96926b777fc03d8, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 21300000, guid: a5ba3d3b857294740a17aee28d38f4bf, type: 3}
+  showCubeChan: 1
+  playSound: 0

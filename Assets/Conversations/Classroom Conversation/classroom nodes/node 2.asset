@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: node 2
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: 'Today we are going over how to be a american, so please open your
-    textbooks to page 420. '
+  dialogueText: I understand this is the first day, so why don't we go over how to
+    be an American? Please open your textbooks to page 420. DON'T YOU DARE MAKE A
+    JOKE, OR I'LL MAKE YOU INTO A MARTYR!
   defaultNextNode: {fileID: 11400000, guid: 36e198ecb20940c449cbf52edbb3003e, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

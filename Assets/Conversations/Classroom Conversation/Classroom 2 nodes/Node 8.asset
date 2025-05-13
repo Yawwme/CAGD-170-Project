@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Node 8
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: Final Question...
+  dialogueText: Final question...
   defaultNextNode: {fileID: 11400000, guid: 59bc004418910064aab0edca39900286, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 184243562}
   m_Layer: 5
-  m_Name: ImageParent
+  m_Name: ImageContainer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1412,7 +1412,7 @@ MonoBehaviour:
   autoStartConversationNode: {fileID: 11400000, guid: 480b859245033e64498044de117cf9fd, type: 2}
   autoStart: 1
   sound: {fileID: 203466659}
-  cubeChan: {fileID: 1548009582}
+  cubeChanImageContainer: {fileID: 0}
   cubeChanSprite: {fileID: 1114640154}
   wordSpeed: 0.05
 --- !u!1 &1225779122

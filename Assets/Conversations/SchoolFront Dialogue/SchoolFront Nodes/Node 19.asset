@@ -21,7 +21,10 @@ MonoBehaviour:
     onSelected:
       m_PersistentCalls:
         m_Calls: []
-    loadScene: 
+    loadScene: Classroom
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

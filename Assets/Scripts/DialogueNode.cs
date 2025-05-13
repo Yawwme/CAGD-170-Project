@@ -2,6 +2,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Dialogue/Node")]
+
+/*
+ * Date Created:
+ * Authors:
+ * Description: Originally from "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial". THESE ARE THE NODES, THIS IS THE HEART OF THE GAME
+ * Within the node, you're able to change who is speaking, the dialogue itself, etc
+ */
+
 public class DialogueNode : ScriptableObject
 {
     /* 
@@ -35,7 +43,8 @@ public class DialogueNode : ScriptableObject
 
     public Sprite cubeChanSprite;
     public bool showCubeChan;
-   
+    public bool playSound;
+
     //Old code, go look and gawk.
     internal bool IsLastNode()
     {

@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Narrator
   dialogueText: It was nice knowing ya.
-  defaultNextNode: {fileID: 11400000, guid: 79cde2f2dd293204baece30ac37cabc9, type: 2}
+  defaultNextNode: {fileID: 0}
   responses:
-  - responseText: '"What do you mean"'
-    nextNode: {fileID: 11400000, guid: bfa5698a9e755ba42949ea98fffc08fa, type: 2}
+  - responseText: What does that mean?
+    nextNode: {fileID: 0}
     onSelected:
       m_PersistentCalls:
         m_Calls:
@@ -33,7 +33,9 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    loadScene: 
+    loadScene: AlternativeBedroom
+    sprite: {fileID: 0}
+    playSoundResponse: 1
     onClick:
       m_PersistentCalls:
         m_Calls:
@@ -49,4 +51,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-    audioSource: {fileID: 0}
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0
+  playSound: 0

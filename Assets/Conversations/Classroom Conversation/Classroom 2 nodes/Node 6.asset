@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Node 6
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: Next Question. What is the US's greatest export?
+  dialogueText: Next question, what is the U.S.'s greatest export?
   defaultNextNode: {fileID: 0}
   responses:
   - responseText: Diabetes
@@ -22,15 +22,17 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     loadScene: 
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls: []
-  - responseText: technology
+  - responseText: Technology
     nextNode: {fileID: 0}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
     loadScene: Classroom Death
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls:
@@ -46,3 +48,5 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

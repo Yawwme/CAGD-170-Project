@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: IDk response 1
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: So I'll let it slide
+  dialogueText: So I'll let it slide... for now.
   defaultNextNode: {fileID: 11400000, guid: 48558621eeb27c54690ee08f7955e2da, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

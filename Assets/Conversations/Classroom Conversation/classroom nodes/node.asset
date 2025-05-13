@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: node
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: Alright everyone please take your seat, class is now in session.
+  dialogueText: Alright you ungrateful brats, I got you for an hour, so you better
+    take your seat. Class is now in session.
   defaultNextNode: {fileID: 11400000, guid: fb876ae1a1a178f4a9772ce900581d53, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

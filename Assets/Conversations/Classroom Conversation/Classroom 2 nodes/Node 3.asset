@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Node 3
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: Oh really then let me quiz you...
+  dialogueText: Let's see about that. Let me give you and only you a pop quiz!
   defaultNextNode: {fileID: 11400000, guid: 12ae1b9037560b64bbb03379eee85f51, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

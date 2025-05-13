@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 /*
- * 
+ * Authors:
  * Date Created: 5/1/2025
- * 
+ * Description: While this script is useless, it was supposed to... change scenes.
+ * Wow, who would've guessed.
  */
 
 //Transition skript

@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Node 2
   m_EditorClassIdentifier: 
   speakerName: You
-  dialogueText: UUUH, oh yea, of course I was listening, I am very good at uh multitasking.
+  dialogueText: ' Uh... yeah? Of course, I was listening! I''m like... the perfect
+    multitasker... guy?'
   defaultNextNode: {fileID: 11400000, guid: 68b7a08c80c33bd43ae39f2c7c4c39d3, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

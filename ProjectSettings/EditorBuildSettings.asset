@@ -44,4 +44,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/School Hallway/Hallway.unity
     guid: 1baddcbf9ed827e49913647799b11f26
+  - enabled: 1
+    path: Assets/Scenes/SchoolFront.unity
+    guid: 8069c36c8b8571b4f8d0dddee284efa9
+  - enabled: 1
+    path: Assets/Scenes/AlternativeBedroom.unity
+    guid: 8e693ab697806ec488f088965215d319
   m_configObjects: {}

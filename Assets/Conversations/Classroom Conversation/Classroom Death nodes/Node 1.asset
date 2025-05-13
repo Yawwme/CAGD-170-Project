@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: Node 1
   m_EditorClassIdentifier: 
   speakerName: 'Teacher '
-  dialogueText: Sorry but that's quite incorrect...
+  dialogueText: Hoo boy, you're incorrect.
   defaultNextNode: {fileID: 11400000, guid: 0690379169b56a445b0d9a31eacbfdad, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

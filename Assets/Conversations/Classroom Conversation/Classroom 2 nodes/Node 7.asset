@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: Node 7
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: 'That Is correct, diabetes or obesity is the US''s greatest exports
-    and trademarks. '
+  dialogueText: That Is... correct! Our greatest export are type 2 diabetes and obesity!
+    It comes included with most Americans... and heart disease I suppose.
   defaultNextNode: {fileID: 11400000, guid: 4000b2d0e802ba445bb42717ab07a712, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

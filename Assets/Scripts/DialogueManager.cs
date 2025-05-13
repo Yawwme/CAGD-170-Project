@@ -7,11 +7,16 @@ using JetBrains.Annotations;
 using System.Runtime.CompilerServices;
 using UnityEditor.Experimental.GraphView;
 
+/*
+ * Date Created:
+ * Authors: Jann Morales and Ricky Pardo
+ * Description: Originally from "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial" but changed so much to the point where it is barely the same script
+ * This handles ALL of the dialogue-related stuff. Attach this to an empty GameObject. 
+ * This script also reduced my lifespan by 5 years. I owe my life to Unity Documentation, forums, youtube videos, etc.
+ */
+
 public class DialogueManager : MonoBehaviour
 {
-    //If you ask me, I don't know myself. I watched "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial"
-    //And copied the code shown on video.
-
     public static DialogueManager Instance { get; private set; }
 
     //NOBODY TOLD ME YOU CAN CREATE CUSTOM HEADERS!
@@ -23,9 +28,9 @@ public class DialogueManager : MonoBehaviour
         [Header("SpeakerName = CharName")]
         [Header("DialogueBody = Description")]
     
-    public GameObject dialogueUI;               // Parent of everything. This is TextBox in the Canvas
-    public GameObject textContainer;            // the textbox panel
-    public GameObject buttonsContainer;         // the two-button panel
+    public GameObject dialogueUI;               //Parent of everything. This is TextBox in the Canvas
+    public GameObject textContainer;            //Contains the text
+    public GameObject buttonsContainer;         //Contains the button
 
     public TextMeshProUGUI speakerNameText;     //speakerName is the Character speaking (e.g., You, Narrator, etc)
     public TextMeshProUGUI dialogueBodyText;    //This is the actual dialogue being spoken (e.g., "Hi, I'm the Narrator, and I'm super cool!")
@@ -35,9 +40,9 @@ public class DialogueManager : MonoBehaviour
         [Header("Response1Parent = Response1Parent")]
         [Header("Response2Parent = Response2Parent")]
     
-    public GameObject buttonPrefab;             // just one prefab
-    public Transform response1Parent;           // Appears on the top
-    public Transform response2Parent;           // Appears on the bottom
+    public GameObject buttonPrefab;             
+    public Transform response1Parent;           //Response1 appears on the top
+    public Transform response2Parent;           //Response2 appears on the bottom
 
     [Header("Put Conversation Node here and check autoStart")]
     [Header("Please don't make it false!")]
@@ -92,17 +97,22 @@ public class DialogueManager : MonoBehaviour
 
     private void Start()
     {
+        //Honestly, I don't know why you're given a choice to manually start it.
+        //Just always have the auto start checked to true
         if (autoStartConversationNode != null)
         {
             StartDialogue(autoStartConversationNode);
         }
 
     }
+
+    //This starts the dialogue, what do you want from me
     public void StartDialogue(Dialogue convo)
     {
         StartDialogueNode(convo.rootNode);
     }
 
+    //This is the node that gets called in StartDialogue.
     private void StartDialogueNode(DialogueNode node)
     {
         //Shows the dialogueUI and sets the speakerName to whatever is in the node
@@ -111,16 +121,24 @@ public class DialogueManager : MonoBehaviour
         dialogueUI.SetActive(true);
         speakerNameText.text = node.speakerName;
 
+        //If showCubeChan AND cubeChanSprite ARE NOT null, then show cube chan!
         if (node.showCubeChan && node.cubeChanSprite != null)
         {
             cubeChanSprite.sprite = node.cubeChanSprite;
             cubeChanSprite.gameObject.SetActive(true);
         }
-        else
+        else //otherwise hide her beauty from the world.
         {
             cubeChanSprite.gameObject.SetActive(false);
         }
 
+        //If playSound and sound are not null, play the sound
+        //You already seen this
+        if (node.playSound && sound != false)
+        {
+            print("IT WORKS!!!");
+            sound.Play();
+        }
 
         StopAllCoroutines();
         
@@ -135,6 +153,7 @@ public class DialogueManager : MonoBehaviour
 
         //Typewriting effeect, this is super important
         //Trust me it is
+        //For every character in the dialogueText, it will get affected by the typerwriter effect
         foreach (char c in node.dialogueText)
         {
             //If the player skips the typewriting effect by pressing Q, then it'll instantly display the dialogue 
@@ -146,7 +165,10 @@ public class DialogueManager : MonoBehaviour
                 break;
             }
 
-            //play a sound here or something idk
+            //We were going to attempt to add a sound effect for each character (like any other game), but
+            //we couldn't figure out what sound effect sounded right.
+
+            //Text is plus equal to each character
             dialogueBodyText.text += c;
             yield return new WaitForSeconds(wordSpeed); //All it does is add a delay to each character. You can set the wordSpeed to whatever
         }
@@ -159,7 +181,7 @@ public class DialogueManager : MonoBehaviour
         if (node.isBranching)
         {
             ShowResponses(node);
-            yield break;          // stop here until a button is clicked
+            yield break;         
         }
 
         if (node.defaultNextNode != null)
@@ -177,7 +199,8 @@ public class DialogueManager : MonoBehaviour
     }
 
 
-
+    //This is where I copied the code from the video, stared at it, and wondered what half of it meant
+    //If it works, it works.
     private void ShowResponses(DialogueNode node)
     {
        
@@ -188,11 +211,10 @@ public class DialogueManager : MonoBehaviour
         //DO NOT SET THIS TO FALSE, IT WILL HIDE THE BUTTONS WHEN CALLED!
         buttonsContainer.SetActive(true);
 
-        // clear old buttons
         foreach (Transform t in response1Parent) Destroy(t.gameObject);
         foreach (Transform t in response2Parent) Destroy(t.gameObject);
 
-        // only two possible responses—ignore extras
+        
         if (node.responses.Count > 0)
             CreateResponseButton(node.responses[0], response1Parent, 10);
 
@@ -201,9 +223,12 @@ public class DialogueManager : MonoBehaviour
     }
 
     
-
     private void CreateResponseButton(DialogueResponse response, Transform parent, int fontSize)
     {
+        //DialogueNode dialogueNode = ScriptableObject.CreateInstance<DialogueNode>();
+        //There used to be an if statement that made sure that both sound and playSound are not equal to null
+        //Enjoy the free line of code
+
         var buttonPrefab = Instantiate(this.buttonPrefab, parent);
         var text = buttonPrefab.GetComponentInChildren<TextMeshProUGUI>();
         var button = buttonPrefab.GetComponent<Button>();
@@ -212,45 +237,53 @@ public class DialogueManager : MonoBehaviour
         //I wish there was some sort of way to check Auto Size through text.
         text.fontSize = fontSize;
         text.text = response.responseText;
-        button.onClick.AddListener(() =>
-        {
+
+        //Something something unity event functions, I barely understand it
+        //At least I used a lambda expression because I used the "this" pointer. 
+        //I hate it
+        button.onClick.AddListener(() => {
             response.onSelected.Invoke();
 
-            // back to text mode
             //DON'T SET THIS TO TRUE. KEEP IT FALSE
             buttonsContainer.SetActive(false);
 
             //Keep this true though. We want text!
             textContainer.SetActive(true);
 
-            //If the response sprite IS NOT null and cubeChanImageContainer's image IS NOT null
-            //then cubeChanImageContainer is assigned to the response sprite
 
-            //This should work.
+            //I forgot why I wrote this if the playSoundResponse didn't work as intended
+            //Enjoy?
             if (response.sprite != null && cubeChanImageContainer != null)
             {
-               
+                //If the response sprite IS NOT null and cubeChanImageContainer's image IS NOT null
+                //then cubeChanImageContainer is assigned to the response sprite
                 cubeChanImageContainer.sprite = response.sprite;
 
             }
 
-            //scene transitoon
-            if (!string.IsNullOrEmpty(response.loadScene))
+            //Look at this redudant code that drove me insane until I realized it wouldn't work the way I thought it would
+            //Haha, I suffered
+
+            /* if (response.playSoundResponse != false)
+            {
+                print("why won't you work on me");
+                sound.Play();
+              
+            }
+            */
+
+            //This is the scene transition! It... transitions the scene (but in a way that gives headaches BECAUSE IT REFUSED TO WORK)
+            if (!string.IsNullOrEmpty(response.loadScene)) //If the string is not null or empty, load the next scene
             {
                 SceneManager.LoadScene(response.loadScene);
             }
-            else if (response.nextNode != null)
+            else if (response.nextNode != null) //Else, if the next node doesn't have a scene to load, it'll load the next node
             {
                 StartDialogueNode(response.nextNode);
             }
-             
-            //If the sound IS NOT null, then it'll play
-            if (sound != null)
-            {
-                print("work");
-                sound.Play();
-            }
-
+            
+            
+            
         });
     }
 

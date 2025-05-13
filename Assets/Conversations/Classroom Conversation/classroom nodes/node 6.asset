@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: node 6
   m_EditorClassIdentifier: 
   speakerName: Nerd
-  dialogueText: '"Warcrimes are defined as serious violations of the laws and customs
+  dialogueText: '"War crimes are defined as serious violations of the laws and customs
     of war that give rise to individual criminal responsibility under international
     law. They include acts such as intentional killing, torture, inhumane treatment,
-    and taking hostages."'
+    and taking hostages,".'
   defaultNextNode: {fileID: 11400000, guid: 4e0d34eacae6c7c4f8d334baa0e41940, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

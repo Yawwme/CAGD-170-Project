@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: node 8
   m_EditorClassIdentifier: 
   speakerName: Nerd
-  dialogueText: '"But we can''t just do the warcrime you have to be SMART about it.
-    So ensure to follow these tips and tricks starting with..............."'
+  dialogueText: '"But we can''t just do war crimes! You have to be SMART about it,
+    so ensure to follow these tips and tricks starting with..."'
   defaultNextNode: {fileID: 11400000, guid: 4cde9ad5c1bcd434f865ca61a8d98b3c, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

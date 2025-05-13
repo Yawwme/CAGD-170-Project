@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Node 2
   m_EditorClassIdentifier: 
   speakerName: 'Teacher '
-  dialogueText: ...It seems I need to teach you a lesson about paying attention.
+  dialogueText: Seems like I need to bring back some good old corporal punishment
+    to... discipline you about not paying attention.
   defaultNextNode: {fileID: 11400000, guid: 99fbb517e49926e48b96736b903db654, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

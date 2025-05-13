@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Node 5
   m_EditorClassIdentifier: 
   speakerName: 
-  dialogueText: You are dead
+  dialogueText: unused lol
   defaultNextNode: {fileID: 11400000, guid: 79cde2f2dd293204baece30ac37cabc9, type: 2}
   responses:
   - responseText: Restart
@@ -34,6 +34,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
     loadScene: Bedroom(Intro)
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls:
@@ -49,3 +50,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0
+  playSound: 0

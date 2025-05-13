@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: Node 3
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: Some could say that this is the meaning of life...a peaceful sleep...eternal
-    darkness with nothing but you...
+  speakerName: 
+  dialogueText: Some could say that this is the meaning of life... a peaceful sleep...
+    an eternal darkness with nothing but you...
   defaultNextNode: {fileID: 11400000, guid: 97833f210c516854d92c17d581a5a3d2, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

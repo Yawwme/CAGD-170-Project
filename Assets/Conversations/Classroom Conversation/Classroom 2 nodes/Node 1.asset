@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: Node 1
   m_EditorClassIdentifier: 
   speakerName: Teacher
-  dialogueText: YOU!!! Have you even been paying attention to your fellow student!?
+  dialogueText: HEY YOU! THE ONE FACE FIRST ON THE DESK! WERE YOU EVER PAYING ATTENTION
+    TO YOUR FELLOW STUDENT?!
   defaultNextNode: {fileID: 11400000, guid: 91fa415b6e2fdbb479b6a7e2781cb86e, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

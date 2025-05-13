@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: Node 1
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: 'You sleep peacefully '
+  speakerName: 
+  dialogueText: You... actually managed to sleep peacefully despite the classroom.
   defaultNextNode: {fileID: 11400000, guid: d0c07a9b45c6b434c86e757af0d189bb, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: node 5
   m_EditorClassIdentifier: 
   speakerName: Nerd
-  dialogueText: '"Chapter 5: How To Get Away With Warcrimes"'
+  dialogueText: 'Ahem... "Chapter 5: How To Get Away With War Crimes!"'
   defaultNextNode: {fileID: 11400000, guid: d97146810d8fe0345bd58be545098b65, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

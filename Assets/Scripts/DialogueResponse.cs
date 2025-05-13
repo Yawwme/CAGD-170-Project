@@ -5,6 +5,14 @@ using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 [System.Serializable]
+
+/*
+ * Date Created:
+ * Authors:
+ * Description: Originally from "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial". Within the nodes, you are able to create
+ * responses, these are the options within the responses. 
+ */
+
 public class DialogueResponse
 {
     public string responseText;
@@ -15,10 +23,14 @@ public class DialogueResponse
     [Header("DO NOT MESS UP THE SPELLING!")]
     public string loadScene;
 
-    [Header("Throw in the amazing cube-chan here!")]
+    [Header("This doesn't work, but feel free to throw in sprites")]
+    [Header("The Cube Chan Sprite works though, not this.")]
     public Sprite sprite;
 
-    public UnityEvent onClick; //Might get removed if it does nothing. 
-    //public AudioSource audioSource;
+
+
+    public UnityEvent onClick;
+    //public AudioSource audioSource; //I hate type mismatch
+    //public bool playSoundResponse; This doesn't work, I tried
 
 }

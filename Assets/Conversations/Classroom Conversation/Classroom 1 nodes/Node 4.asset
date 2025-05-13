@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: Node 4
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: ...until suddenly the fire nation attacks...
+  speakerName: 
+  dialogueText: until suddenly the fire nation attacks...
   defaultNextNode: {fileID: 0}
   responses:
-  - responseText: Wake Up
+  - responseText: Wakey Wakey
     nextNode: {fileID: 0}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
     loadScene: Classroom 2
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls:
@@ -37,3 +38,5 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0

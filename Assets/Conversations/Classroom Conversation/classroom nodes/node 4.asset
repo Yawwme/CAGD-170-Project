@@ -13,6 +13,8 @@ MonoBehaviour:
   m_Name: node 4
   m_EditorClassIdentifier: 
   speakerName: Nerd
-  dialogueText: Sure I volunteer!!
+  dialogueText: Me! Me! I want to volunteer!
   defaultNextNode: {fileID: 11400000, guid: 48f283fd7cb3be44f9d1b743e08c5335, type: 2}
   responses: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0
