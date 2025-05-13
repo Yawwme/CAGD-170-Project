@@ -677,7 +677,7 @@ MonoBehaviour:
   buttonPrefab: {fileID: 6133801235201358436, guid: a789fd87b7cdcc74392b295ce114c4bd, type: 3}
   response1Parent: {fileID: 1976572465}
   response2Parent: {fileID: 202538428}
-  autoStartConversationNode: {fileID: 11400000, guid: 2ae4808f7fec03347801f4635e3cb0b7, type: 2}
+  autoStartConversationNode: {fileID: 11400000, guid: bee02f90b5ff8e74ba12dd5b91cd7721, type: 2}
   autoStart: 1
   sound: {fileID: 557159106}
   cubeChanImageContainer: {fileID: 401679994}

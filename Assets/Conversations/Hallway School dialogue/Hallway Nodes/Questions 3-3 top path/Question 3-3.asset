@@ -10,29 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
-  m_Name: Node 4
+  m_Name: Question 3-3
   m_EditorClassIdentifier: 
-  speakerName: Narrator
-  dialogueText: It was nice knowing ya.
+  speakerName: Cube-Chan
+  dialogueText: Are you a big spender?
   defaultNextNode: {fileID: 0}
   responses:
-  - responseText: What does that mean?
-    nextNode: {fileID: 11400000, guid: bfa5698a9e755ba42949ea98fffc08fa, type: 2}
+  - responseText: I love savings
+    nextNode: {fileID: 11400000, guid: b89358e42c648d0469012416388c7fb4, type: 2}
     onSelected:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: 
-          m_MethodName: 
-          m_Mode: 0
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
+    loadScene: 
+    sprite: {fileID: 0}
+    onClick:
+      m_PersistentCalls:
+        m_Calls: []
+  - responseText: Money I hardly knew her
+    nextNode: {fileID: 11400000, guid: 1ba01c45a0c250a47a025a1447febce9, type: 2}
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
     loadScene: 
     sprite: {fileID: 0}
     onClick:

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Node 5
   m_EditorClassIdentifier: 
   speakerName: 
-  dialogueText: unused lol
+  dialogueText: Yu ded
   defaultNextNode: {fileID: 11400000, guid: 79cde2f2dd293204baece30ac37cabc9, type: 2}
   responses:
   - responseText: Restart
