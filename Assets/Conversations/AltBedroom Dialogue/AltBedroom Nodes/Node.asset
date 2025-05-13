@@ -18,4 +18,4 @@ MonoBehaviour:
   responses: []
   cubeChanSprite: {fileID: 0}
   showCubeChan: 0
-  playSound: 0
+  playSound: 1
