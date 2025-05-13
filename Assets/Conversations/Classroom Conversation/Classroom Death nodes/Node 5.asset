@@ -52,4 +52,4 @@ MonoBehaviour:
           m_CallState: 2
   cubeChanSprite: {fileID: 0}
   showCubeChan: 0
-  playSound: 0
+  playSound: 1
