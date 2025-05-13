@@ -679,7 +679,7 @@ MonoBehaviour:
   response2Parent: {fileID: 202538428}
   autoStartConversationNode: {fileID: 11400000, guid: 2ae4808f7fec03347801f4635e3cb0b7, type: 2}
   autoStart: 1
-  sound: {fileID: 0}
+  sound: {fileID: 557159106}
   cubeChanImageContainer: {fileID: 401679994}
   cubeChanSprite: {fileID: 199909980}
   wordSpeed: 0.05

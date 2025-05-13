@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 
 /*
  * Date Created:
- * Authors:
+ * Authors: Jann Morales and and Ricky Pardo
  * Description: Originally from "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial". Within the nodes, you are able to create
  * responses, these are the options within the responses. 
  */
