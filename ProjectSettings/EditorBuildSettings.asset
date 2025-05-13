@@ -62,4 +62,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: e2d97a7c2dfc18b479a55d06814395ea
+  - enabled: 1
+    path: Assets/Scenes/Prom/PromBad.unity
+    guid: c08261bb366e55f4bb91cd83bef9e2f6
+  - enabled: 1
+    path: Assets/Scenes/Prom/PromGood.unity
+    guid: 54a8dd4786a852a46ab44713111b2dc5
+  - enabled: 1
+    path: Assets/Scenes/Prom/PromNeutral.unity
+    guid: a949776494c9cad4c87da74f302f9a9d
   m_configObjects: {}
