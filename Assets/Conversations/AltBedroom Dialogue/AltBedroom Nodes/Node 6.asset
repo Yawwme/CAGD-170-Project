@@ -29,4 +29,4 @@ MonoBehaviour:
         m_Calls: []
   cubeChanSprite: {fileID: 0}
   showCubeChan: 0
-  playSound: 1
+  playSound: 0

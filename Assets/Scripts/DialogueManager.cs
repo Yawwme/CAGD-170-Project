@@ -8,7 +8,7 @@ using System.Runtime.CompilerServices;
 using UnityEditor.Experimental.GraphView;
 
 /*
- * Date Created: 4/
+ * Date Created: 4/24/25
  * Authors: Jann Morales and Ricky Pardo
  * Description: Originally from "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial" but changed so much to the point where it is barely the same script
  * This handles ALL of the dialogue-related stuff. Attach this to an empty GameObject. 

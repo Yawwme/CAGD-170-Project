@@ -22,6 +22,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
     loadScene: Bedroom(Intro)
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls: []
@@ -30,7 +31,11 @@ MonoBehaviour:
     onSelected:
       m_PersistentCalls:
         m_Calls: []
-    loadScene: 
+    loadScene: MainMenu
+    sprite: {fileID: 0}
     onClick:
       m_PersistentCalls:
         m_Calls: []
+  cubeChanSprite: {fileID: 0}
+  showCubeChan: 0
+  playSound: 0
