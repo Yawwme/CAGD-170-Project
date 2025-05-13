@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
+  m_Name: Node 45
+  m_EditorClassIdentifier: 
+  speakerName: 
+  dialogueText: 'As if you had a chance with a cube. Maybe you should''ve taken your
+    chances with a sphere or something. '
+  defaultNextNode: {fileID: 11400000, guid: ed954df3dc41e1645afc6bbeb9415640, type: 2}
+  responses: []
+  cubeChanSprite: {fileID: 21300000, guid: 1806815ac717f784d8af4e8d44c53ff2, type: 3}
+  showCubeChan: 0
+  playSound: 0

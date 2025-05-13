@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
+  m_Name: Node 16
+  m_EditorClassIdentifier: 
+  speakerName: 
+  dialogueText: She blinked at you. You're still unused to a sentient cube, so any
+    sort of motion catches you off guard.
+  defaultNextNode: {fileID: 11400000, guid: 0696dc445f07c3146bf4b7419d60af31, type: 2}
+  responses: []
+  cubeChanSprite: {fileID: 21300000, guid: 1663b50fba46faf4da55c0aca886e68e, type: 3}
+  showCubeChan: 1
+  playSound: 0

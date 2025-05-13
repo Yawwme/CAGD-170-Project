@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
+  m_Name: Node 36
+  m_EditorClassIdentifier: 
+  speakerName: Narrator
+  dialogueText: I mean, she didn't murder you or anything. You're still alive, so
+    that's a win in my book
+  defaultNextNode: {fileID: 11400000, guid: 244c3398e1214d648bde67d901cdcaf4, type: 2}
+  responses: []
+  cubeChanSprite: {fileID: 21300000, guid: f196cbb4772ec704b8e22508764ffc84, type: 3}
+  showCubeChan: 0
+  playSound: 0
