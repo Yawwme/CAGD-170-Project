@@ -50,4 +50,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AlternativeBedroom.unity
     guid: 8e693ab697806ec488f088965215d319
+  - enabled: 0
+    path: Assets/Scenes/Main Menu.unity
+    guid: 71436919609fa9c419ef40153108401e
+  - enabled: 1
+    path: Assets/Scenes/Alleyway.unity
+    guid: 596548305073164439bf17acfd0b7186
+  - enabled: 1
+    path: Assets/Scenes/AlleyDeath.unity
+    guid: 987ce37b748cc974d9b26974f50d0a2d
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: e2d97a7c2dfc18b479a55d06814395ea
   m_configObjects: {}
