@@ -12,10 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: bad endingf
   m_EditorClassIdentifier: 
-  speakerName: 
-  dialogueText: 
+  speakerName: Narrator
+  dialogueText: Time to see your results
   defaultNextNode: {fileID: 0}
-  responses: []
+  responses:
+  - responseText: (see results)
+    nextNode: {fileID: 0}
+    onSelected:
+      m_PersistentCalls:
+        m_Calls: []
+    loadScene: PromBad
+    sprite: {fileID: 0}
+    onClick:
+      m_PersistentCalls:
+        m_Calls: []
   cubeChanSprite: {fileID: 0}
   showCubeChan: 0
   playSound: 0

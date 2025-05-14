@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Cube-Chan
   dialogueText: Really I'm glad saving money is a important practice
-  defaultNextNode: {fileID: 0}
+  defaultNextNode: {fileID: 11400000, guid: eab7f12b30f8e4e45a699a59ca998da7, type: 2}
   responses: []
   cubeChanSprite: {fileID: 21300000, guid: a5ba3d3b857294740a17aee28d38f4bf, type: 3}
   showCubeChan: 1

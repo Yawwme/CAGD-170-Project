@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Cube-Chan
   dialogueText: WHO IS THIS MONEY!!!?? HUH YOU KNOW WHAT NEVERMIND.
-  defaultNextNode: {fileID: 0}
+  defaultNextNode: {fileID: 11400000, guid: eab7f12b30f8e4e45a699a59ca998da7, type: 2}
   responses: []
   cubeChanSprite: {fileID: 21300000, guid: 1806815ac717f784d8af4e8d44c53ff2, type: 3}
   showCubeChan: 1

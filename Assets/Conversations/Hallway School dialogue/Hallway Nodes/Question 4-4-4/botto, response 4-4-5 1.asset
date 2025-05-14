@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f982e8b36f27394680cc0675c3ac8d4, type: 3}
   m_Name: botto, response 4-4-5 1
   m_EditorClassIdentifier: 
-  speakerName: 
-  dialogueText: 
-  defaultNextNode: {fileID: 0}
+  speakerName: Cube-Chan
+  dialogueText: Really thats great...for no particular reason
+  defaultNextNode: {fileID: 11400000, guid: 551a81b0b35875e49addc7b4bc3593d2, type: 2}
   responses: []
-  cubeChanSprite: {fileID: 0}
-  showCubeChan: 0
+  cubeChanSprite: {fileID: 21300000, guid: a5ba3d3b857294740a17aee28d38f4bf, type: 3}
+  showCubeChan: 1
   playSound: 0

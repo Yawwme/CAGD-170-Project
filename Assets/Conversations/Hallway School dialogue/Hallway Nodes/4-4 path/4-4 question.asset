@@ -17,7 +17,7 @@ MonoBehaviour:
   defaultNextNode: {fileID: 0}
   responses:
   - responseText: Its whatever
-    nextNode: {fileID: 11400000, guid: 11d4dc647e33bf147a1798cbf75ae8ff, type: 2}
+    nextNode: {fileID: 11400000, guid: e76a0e7698094424bbbaa45aab78ffe3, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []
@@ -27,7 +27,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - responseText: I think they are great
-    nextNode: {fileID: 0}
+    nextNode: {fileID: 11400000, guid: bac0a8dd2a509b749a4252594495d8b7, type: 2}
     onSelected:
       m_PersistentCalls:
         m_Calls: []

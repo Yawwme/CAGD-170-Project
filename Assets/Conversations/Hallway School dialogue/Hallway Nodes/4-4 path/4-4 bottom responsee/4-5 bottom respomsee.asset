@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Cube-Chan
   dialogueText: Really thats great...for no other reason
-  defaultNextNode: {fileID: 0}
+  defaultNextNode: {fileID: 11400000, guid: 551a81b0b35875e49addc7b4bc3593d2, type: 2}
   responses: []
   cubeChanSprite: {fileID: 0}
   showCubeChan: 0
