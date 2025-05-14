@@ -7,7 +7,7 @@ using UnityEngine;
 
 /*
  * Date Created: 4/24/25
- * Authors: Jann Morales and and Ricky Pardo
+ * Authors: Jann Morales and Ricky Pardo
  * Description: Originally from "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial". This creates the dialogue ScriptableObject 
  * It makes nodes, that simple.
  */

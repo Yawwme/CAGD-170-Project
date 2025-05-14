@@ -36,6 +36,6 @@ MonoBehaviour:
     onClick:
       m_PersistentCalls:
         m_Calls: []
-  cubeChanSprite: {fileID: 0}
-  showCubeChan: 0
+  cubeChanSprite: {fileID: 21300000, guid: f196cbb4772ec704b8e22508764ffc84, type: 3}
+  showCubeChan: 1
   playSound: 0

@@ -4,7 +4,7 @@ using UnityEngine;
 
 /*
  * Date Created: 4/24/25
- * Authors: Jann Morales and and Ricky Pardo
+ * Authors: Jann Morales and Ricky Pardo
  * Description: Originally from "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial". Attach to an empty GameObject before anything
  * This script is dated though given the amount of system changes. Nobody wants to press space to start dialogue
  */

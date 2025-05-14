@@ -5,7 +5,7 @@ using UnityEngine;
 
 /*
  * Date Created: 4/24/25
- * Authors: Jann Morales and and Ricky Pardo
+ * Authors: Jann Morales and Ricky Pardo
  * Description: Originally from "How to Create a Dialogue System With Choices In Unity | Unity Game Dev Tutorial". THESE ARE THE NODES, THIS IS THE HEART OF THE GAME
  * Within the node, you're able to change who is speaking, the dialogue itself, etc
  */
